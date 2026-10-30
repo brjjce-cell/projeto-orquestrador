@@ -1,0 +1,41 @@
+# Credenciais e configuracoes locais
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+credentials*.json
+secrets.*
+secrets/
+.ssh/
+.oci/
+.aws/
+.n8n/
+
+# Dados de execucao, backups e registros locais
+data/
+backups/
+logs/
+*.log
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+*.sql
+*.zip
+*.tar
+*.tar.gz
+
+# Dependencias e arquivos temporarios
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+work/
+tmp/
