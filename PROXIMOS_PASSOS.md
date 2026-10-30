@@ -26,9 +26,11 @@ Data de referência: 30/10/2026. Esta lista é um plano; não autoriza contrata�
 
 Etapa retomada após o usuário informar, em 30/10/2026, que o acesso à Oracle voltou. A disponibilidade de recursos ainda precisa ser conferida.
 
-- [ ] Acessar Computação > Instâncias no painel Oracle.
+- [x] Acessar Computação > Instâncias no painel Oracle; a lista estava vazia no compartimento e região selecionados.
 - [ ] Conferir região, capacidade disponível, elegibilidade gratuita e limites aplicáveis.
-- [ ] Registrar uma configuração candidata e os custos exibidos, sem dados de conta ou credenciais.
+- [x] Registrar a configuração candidata observada no formulário: Ubuntu 24.04 Minimal aarch64, VM.Standard.A1.Flex, 2 OCPUs e 12 GB.
+- [ ] Resolver a rede pública e a atribuição de IPv4, conforme ORACLE_CONTINUIDADE.md.
+- [ ] Conferir o custo estimado e os recursos Always Free no resumo final, sem registrar dados de conta ou credenciais.
 
 **Resultado esperado:** uma opção concreta e revisada para o servidor, antes de sua criação.
 

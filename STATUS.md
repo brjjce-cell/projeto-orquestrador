@@ -24,7 +24,7 @@
 
 | Item | Situação |
 | --- | --- |
-| Instância Oracle | Verificação retomada após relato de normalização do acesso; disponibilidade, criação e configuração ainda não confirmadas |
+| Instância Oracle | Formulário configurado com Ubuntu 24.04 Minimal aarch64 e VM.Standard.A1.Flex, 2 OCPUs e 12 GB; criação e disponibilidade ainda não confirmadas |
 | Docker local | Instalação não concluída segundo o histórico |
 | Docker no servidor | Não confirmado |
 | n8n e persistência de dados | Usuário informou que o n8n ainda não está em funcionamento; preparação e persistência pendentes |
@@ -40,7 +40,7 @@ O documento original citado na conversa não estava disponível no histórico re
 
 ## Próxima ação
 
-Conferir a tela de Computação > Instâncias no painel Oracle e avaliar uma configuração gratuita antes de provisionar recursos. O usuário informou que o acesso voltou. Depois de validar a infraestrutura, preparar o ambiente n8n e integrar o bot Gestor já criado ao fluxo de tarefas. A recuperação do documento original de continuidade continua pendente em paralelo.
+Concluir a configuração de rede pública e IPv4 para a instância, verificar chave SSH e custo estimado antes da criação. O botão de IPv4 público ficou desabilitado no formulário, apesar da opção de nova sub-rede pública; o usuário abriu em outra aba o formulário de criação de VCN. Ver ORACLE_CONTINUIDADE.md. Depois de validar a infraestrutura, preparar o n8n e integrar o bot Gestor. A recuperação do documento original de continuidade continua pendente em paralelo.
 
 ## Histórico de atualização
 
@@ -51,3 +51,4 @@ Conferir a tela de Computação > Instâncias no painel Oracle e avaliar uma con
 - **30/10/2026:** usuário confirmou conta Oracle, bot Gestor criado e ID do Telegram obtido; nenhum token ou identificador pessoal foi incluído no registro.
 - **30/10/2026:** usuário confirmou que o n8n ainda não está em funcionamento. A preparação do ambiente e a integração do Gestor continuam pendentes; durante a indisponibilidade da Oracle, priorizada a recuperação do documento original de continuidade.
 - **30/10/2026:** usuário informou que o acesso à Oracle voltou. Retomada a verificação da infraestrutura como próxima etapa; instância, elegibilidade gratuita e n8n ainda não foram validados.
+- **30/10/2026:** capturas mostraram seleção de Ubuntu 24.04 Minimal aarch64 e VM.Standard.A1.Flex com 2 OCPUs e 12 GB no formulário. A designação de IPv4 público permaneceu bloqueada; o usuário abriu um formulário separado para criar uma VCN. Provisionamento e custo final não foram confirmados. O usuário pediu para delegar a continuação; o controle de navegador desta sessão não iniciou.

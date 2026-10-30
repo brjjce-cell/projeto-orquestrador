@@ -35,6 +35,12 @@ Durante a indisponibilidade, foi definido o escopo desse fluxo. A proposta docum
 
 Em seguida, ainda em 30/10/2026, o usuário informou que o acesso à Oracle voltou. A prioridade atual passa a ser conferir as opções de instância e sua elegibilidade gratuita antes de qualquer provisionamento. A disponibilidade de recursos e a existência de uma instância ainda não foram verificadas nesta etapa.
 
+## Ponto atual da configuração Oracle
+
+Em 30/10/2026, as capturas de tela mostraram o formulário da instância com Ubuntu 24.04 Minimal aarch64 e forma VM.Standard.A1.Flex, 2 OCPUs e 12 GB. A forma foi exibida como elegível ao Always Free; o custo final e a disponibilidade efetiva ainda precisam ser conferidos.
+
+O formulário não liberou a opção de IPv4 público, mesmo após a seleção de uma nova sub-rede pública. O usuário abriu em outra aba o formulário separado para criar uma rede virtual. Não há confirmação de criação da VCN ou da instância. O controle de navegador desta sessão falhou ao iniciar, e o usuário pediu para delegar a continuação. Detalhes e próximos passos em ORACLE_CONTINUIDADE.md.
+
 ## Limite das fontes
 
 O histórico menciona um documento completo de continuidade compartilhado anteriormente, mas esse documento não estava acessível na recuperação realizada para este registro. Não houve transcrição nem validação integral desse documento.
