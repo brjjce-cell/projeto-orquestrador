@@ -27,7 +27,7 @@
 | Instância Oracle | Segundo relato da outra sessão, tentativas com A1.Flex em 2 OCPUs / 12 GB e 1 OCPU / 6 GB falharam por falta de capacidade; nenhuma instância criada |
 | Docker local | Instalação não concluída segundo o histórico |
 | Rede Oracle | Segundo o relato, VCN, sub-redes e gateways foram criados; configuração e custos ainda precisam de verificação direta |
-| Docker no servidor | Script de inicialização relatado, ainda não examinado; servidor não criado segundo o relato |
+| Docker no servidor | Script recebido e revisado sem execução; ajustes de segurança e confiabilidade pendentes; servidor não criado segundo o relato |
 | n8n e persistência de dados | Usuário informou que o n8n ainda não está em funcionamento; preparação e persistência pendentes |
 | Integração do bot Gestor com o fluxo | Ainda não confirmada; a criação do bot já foi informada pelo usuário |
 | Agente Orquestrador e agentes especializados | Planejados |
@@ -41,7 +41,7 @@ O documento original citado na conversa não estava disponível no histórico re
 
 ## Próxima ação
 
-Obter e revisar o script de inicialização cloud-init, sem credenciais ou chaves privadas, e corrigir os pontos encontrados no fluxo n8n. Conferir diretamente recursos, regras de rede e custos na Oracle; retomar a criação A1 quando houver capacidade. Ver REVISAO_ARTEFATOS.md, RELATO_CLAUDE.md e ORACLE_CONTINUIDADE.md. A recuperação do documento original de continuidade continua pendente em paralelo.
+Corrigir o script de inicialização e o fluxo n8n conforme REVISAO_CLOUD_INIT.md e REVISAO_ARTEFATOS.md. Conferir diretamente recursos, regras de rede e custos na Oracle; retomar a criação A1 quando houver capacidade e após validar os ajustes. A recuperação do documento original de continuidade continua pendente em paralelo.
 
 ## Histórico de atualização
 
@@ -54,4 +54,5 @@ Obter e revisar o script de inicialização cloud-init, sem credenciais ou chave
 - **30/10/2026:** usuário informou que o acesso à Oracle voltou. Retomada a verificação da infraestrutura como próxima etapa; instância, elegibilidade gratuita e n8n ainda não foram validados.
 - **30/10/2026:** capturas mostraram seleção de Ubuntu 24.04 Minimal aarch64 e VM.Standard.A1.Flex com 2 OCPUs e 12 GB no formulário. A designação de IPv4 público permaneceu bloqueada; o usuário pediu para delegar a continuação.
 - **30/10/2026:** relato da outra sessão informa VCN criada e falhas de capacidade A1 em 2 OCPUs / 12 GB e 1 OCPU / 6 GB. Não houve confirmação direta do estado ou custo da conta.
-- **30/10/2026:** recebidos README, STATUS e fluxo JSON da outra sessão. A lógica do fluxo foi revisada isoladamente com dados fictícios; foram identificadas pendências de duplicação, validação, privacidade em grupos, limite de tarefas e persistência. O script cloud-init não foi recebido e ainda precisa de revisão.
+- **30/10/2026:** recebidos README, STATUS e fluxo JSON da outra sessão. A lógica do fluxo foi revisada isoladamente com dados fictícios; foram identificadas pendências de duplicação, validação, privacidade em grupos, limite de tarefas e persistência.
+- **30/10/2026:** recebido e revisado sem execução o script cloud-init. A sintaxe Bash passou, mas há pendências de proteção do primeiro acesso ao n8n, preservação da chave de criptografia, rede, SSH e confiabilidade. Não há confirmação de instância criada.

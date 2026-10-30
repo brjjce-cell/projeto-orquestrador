@@ -25,10 +25,11 @@ Data de referência: 30/10/2026. Esta lista é um plano; não autoriza contrata�
 ## 3. Revisar os artefatos e o relato da delegação — próxima ação
 
 - [x] Obter o fluxo n8n e documentação da outra sessão.
-- [ ] Obter o script de inicialização, sem incluir credenciais nem chaves privadas.
+- [x] Obter o script de inicialização; padrões comuns de credenciais não foram identificados, e o script não foi incluído no repositório.
 - [x] Revisar a lógica do fluxo com dados fictícios e registrar os resultados em REVISAO_ARTEFATOS.md.
 - [ ] Corrigir os problemas identificados e testar o fluxo em um ambiente n8n real antes de usar.
-- [ ] Revisar o script cloud-init e a segurança do primeiro acesso ao n8n antes da criação da instância.
+- [x] Revisar o script cloud-init sem executá-lo; resultados em REVISAO_CLOUD_INIT.md.
+- [ ] Corrigir o script, proteger o primeiro acesso ao n8n, preservar a chave em reexecuções e testar em ambiente adequado antes da criação da instância.
 - [x] Conciliar `/listar` do relato com `/lista` do piloto planejado: o fluxo recebido aceita ambos.
 - [ ] Conferir a VCN, sub-redes, gateways, regras de entrada, recursos utilizados e custos no painel Oracle.
 

@@ -18,7 +18,7 @@ Este documento resume o relato fornecido pelo usuário sobre a sessão de outro 
 - Fluxo n8n para cadastrar, listar e concluir tarefas pelo Telegram; o relato menciona teste local da lógica, sem teste real no Telegram.
 - Documentação de continuidade produzida na outra sessão.
 
-Posteriormente, o usuário forneceu README.md, STATUS.md e o fluxo JSON. O fluxo e sua lógica foram examinados com dados fictícios; há problemas pendentes descritos em REVISAO_ARTEFATOS.md. O script cloud-init não foi recebido nem examinado. Antes de importar, executar, provisionar com o script ou substituir documentos existentes, corrigir os pontos encontrados e revisar o script e eventuais dados sensíveis.
+Posteriormente, o usuário forneceu README.md, STATUS.md, o fluxo JSON e o script cloud-init. O fluxo foi examinado com dados fictícios; o script foi revisado sem execução. Há problemas pendentes descritos em REVISAO_ARTEFATOS.md e REVISAO_CLOUD_INIT.md. Antes de importar, executar, provisionar ou substituir documentos existentes, corrigir os pontos encontrados e validar eventuais dados sensíveis.
 
 ## Pontos para conferir
 

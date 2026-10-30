@@ -6,7 +6,7 @@ Atualização: 30/10/2026. Este registro resume capturas de tela e relatos do us
 
 O usuário forneceu um relato segundo o qual a VCN, sub-redes, gateways e regras foram criados, mas as tentativas A1.Flex com 2 OCPUs / 12 GB e 1 OCPU / 6 GB falharam por falta de capacidade. Segundo o relato, não foi criada instância. Também foram mencionados uma estimativa positiva para o volume de boot e artefatos de inicialização e fluxo n8n.
 
-Essas informações ainda não foram verificadas diretamente no painel, e os artefatos não estavam disponíveis nesta sessão para revisão. As ações atuais são obter os arquivos, revisar rede, custos e segurança e retomar a criação quando houver capacidade. Ver [Relato após delegação](RELATO_CLAUDE.md).
+Essas informações ainda não foram verificadas diretamente no painel. O fluxo e o script foram recebidos e revisados nesta sessão, com pendências em REVISAO_ARTEFATOS.md e REVISAO_CLOUD_INIT.md. As ações atuais são corrigir os artefatos, revisar rede e custos e retomar a criação quando houver capacidade. Ver [Relato após delegação](RELATO_CLAUDE.md).
 
 ## O que foi observado antes da delegação
 

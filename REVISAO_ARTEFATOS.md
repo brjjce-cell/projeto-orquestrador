@@ -4,7 +4,7 @@ Data: 30/10/2026.
 
 ## Arquivos recebidos
 
-Foram lidos os arquivos README.md, STATUS.md e gestor-tarefas-telegram.json fornecidos pelo usuário. O arquivo de inicialização cloud-init não foi recebido; sua segurança e seu comportamento permanecem sem revisão. Nenhuma credencial ou chave privada foi incorporada ao repositório.
+Foram lidos os arquivos README.md, STATUS.md e gestor-tarefas-telegram.json fornecidos pelo usuário. Posteriormente, o script cloud-init foi recebido e revisado sem execução; seus resultados estão em REVISAO_CLOUD_INIT.md. Nenhuma credencial ou chave privada foi incorporada ao repositório.
 
 ## Avaliação da documentação recebida
 
@@ -27,4 +27,4 @@ O nó de código foi examinado e executado isoladamente com dados fictícios, se
 
 ## Limites da revisão
 
-Os ensaios isolados não confirmam importação, integração com Telegram, concorrência, persistência real ou recuperação após reinício no n8n. O fluxo não foi ativado nem implantado. O script cloud-init e a segurança do primeiro acesso ao n8n ainda precisam ser revisados antes de criar a instância com esse script.
+Os ensaios isolados não confirmam importação, integração com Telegram, concorrência, persistência real ou recuperação após reinício no n8n. O fluxo não foi ativado nem implantado. O script cloud-init foi revisado posteriormente; as correções e a validação da segurança do primeiro acesso ao n8n ainda são necessárias antes de criar a instância com esse script.
