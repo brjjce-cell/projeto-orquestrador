@@ -7,6 +7,7 @@ Data de referência: 30/10/2026. Esta lista é um plano; não autoriza contrata�
 - [x] Escolher o primeiro fluxo: receber e organizar tarefas pelo Telegram.
 - [x] Documentar uma proposta de cadastro, listagem e conclusão de tarefas em [Primeiro teste](PRIMEIRO_TESTE.md).
 - [x] Definir exemplos de resposta e critérios de aceite.
+- [ ] Confirmar se o n8n já funciona e onde executa.
 - [ ] Revisar a proposta com base em eventuais ajustes do usuário.
 - [ ] Definir o armazenamento persistente e a forma de integração na preparação da infraestrutura.
 
@@ -38,7 +39,9 @@ Após validar a configuração e obter autorização para as ações de infraest
 - [ ] Criar e configurar o servidor.
 - [ ] Preparar Docker, armazenamento persistente e n8n.
 - [ ] Definir acesso administrativo, rede e proteção das credenciais.
-- [ ] Configurar o Telegram para o piloto escolhido.
+- [x] Criar o bot do Telegram: Gestor, conforme relato do usuário.
+- [x] Obter o ID do Telegram, conforme relato do usuário; valor fora do repositório.
+- [ ] Configurar a integração do bot Gestor com o piloto escolhido.
 - [ ] Implementar o cadastro, a listagem e a conclusão de tarefas.
 - [ ] Documentar versões e procedimentos sem incluir valores secretos.
 

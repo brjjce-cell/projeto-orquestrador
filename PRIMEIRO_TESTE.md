@@ -4,11 +4,22 @@ Data: 30/10/2026.
 
 **Escolha confirmada pelo usuário:** receber e organizar tarefas pelo Telegram.
 
-**Estado:** proposta de funcionamento documentada; bot, armazenamento e execução ainda não configurados.
+**Estado:** proposta de funcionamento documentada; bot Gestor criado e ID do Telegram obtido segundo o usuário. Integração, armazenamento e execução ainda não confirmados.
 
 ## Objetivo
 
 Validar um ciclo simples: enviar uma tarefa, receber confirmação, consultar pendências e marcar a tarefa como concluída. A verificação da Oracle foi adiada a pedido do usuário por problemas de conexão.
+
+## Pré-requisitos informados
+
+- [x] Conta Oracle criada, conforme relato do usuário.
+- [x] Bot do Telegram denominado Gestor criado, conforme relato do usuário.
+- [x] ID do Telegram obtido pelo usuário; valor não registrado aqui.
+- [ ] Confirmar existência e localização de um ambiente n8n em funcionamento.
+- [ ] Configurar credenciais e a integração do bot nesse ambiente.
+- [ ] Preparar o armazenamento das tarefas e executar o teste.
+
+O nome de usuário do bot não foi informado. A criação do bot não confirma que os comandos propostos já funcionem.
 
 ## Comandos propostos
 
@@ -70,6 +81,6 @@ A coordenação deste piloto usa regras simples de cadastro e consulta. Modelos 
 
 ## Quando a conexão estiver normalizada
 
-Retomar a verificação da infraestrutura; preparar o ambiente e o armazenamento persistente; criar ou configurar o bot com as credenciais fora do GitHub; implementar o fluxo e executar os critérios de aceite.
+Retomar a verificação da infraestrutura conforme necessário; preparar o ambiente e o armazenamento persistente; configurar a integração com o bot Gestor já criado, mantendo credenciais e identificadores pessoais fora do GitHub; implementar o fluxo e executar os critérios de aceite.
 
 A implantação e o teste real permanecem pendentes.

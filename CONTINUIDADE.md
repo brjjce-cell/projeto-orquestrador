@@ -19,6 +19,12 @@ Foram citados agentes de pesquisa, criação e análise. Também foram mencionad
 - O acesso por SSH autenticou na conta `brjjce-cell`; a leitura da branch `main` e uma simulação de envio foram concluídas com sucesso.
 - O usuário solicitou que o registro acompanhe as conversas. Durante o trabalho ativo neste contexto, as mudanças relevantes devem ser resumidas e publicadas sem um novo pedido a cada etapa.
 
+## Pré-requisitos informados pelo usuário
+
+Em 30/10/2026, o usuário confirmou que já possui conta Oracle, bot denominado Gestor criado e seu ID do Telegram. O nome de usuário do bot não foi informado; a criação e o funcionamento não foram verificados diretamente no Telegram nesta etapa. Nenhum token ou valor de identificador pessoal foi incorporado ao repositório.
+
+A integração do Gestor ao fluxo e a existência de um ambiente n8n em funcionamento ainda precisam ser confirmadas. Retomar a partir desses pontos, aproveitando o bot já criado.
+
 ## Mudança de prioridade em 30/10/2026
 
 O usuário relatou problemas de conexão e pediu para pular temporariamente a etapa da Oracle. Em seguida, escolheu receber e organizar tarefas pelo Telegram como primeiro teste.

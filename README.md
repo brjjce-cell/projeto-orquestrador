@@ -8,6 +8,8 @@ Planejar um sistema que receba comandos e aprovações pelo Telegram e coordene 
 
 **Fase atual:** definição do primeiro teste: receber e organizar tarefas pelo Telegram. A verificação da infraestrutura Oracle foi adiada a pedido do usuário por problemas de conexão. O funcionamento do servidor, do n8n e dos agentes ainda não foi confirmado.
 
+O usuário já informou que a conta Oracle está criada, o bot **Gestor** foi criado e seu ID do Telegram foi obtido. A existência de um ambiente n8n em funcionamento e a integração do bot ainda precisam ser confirmadas. Credenciais e identificadores pessoais permanecem fora do repositório.
+
 ## Por onde continuar
 
 1. Leia [Continuidade](CONTINUIDADE.md) para recuperar o contexto e os limites deste registro.

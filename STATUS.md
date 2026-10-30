@@ -9,6 +9,8 @@
 | Item | Situação | Base |
 | --- | --- | --- |
 | Conta Oracle Cloud | Criada segundo o usuário | Relato em 30/10/2026 |
+| Bot do Telegram | Bot denominado Gestor já criado | Relato do usuário em 30/10/2026; nome de usuário não informado |
+| ID do Telegram | Já obtido pelo usuário | Relato em 30/10/2026; valor mantido fora do repositório |
 | Acesso ao painel Oracle | Registrado no histórico | Conversa indica região de São Paulo |
 | Registro oficial no GitHub | Este repositório privado | Autorização do usuário e publicação destes documentos |
 | Documentação inicial | README, continuidade, arquitetura, decisões, status e próximos passos | Arquivos deste repositório |
@@ -26,7 +28,7 @@
 | Docker local | Instalação não concluída segundo o histórico |
 | Docker no servidor | Não confirmado |
 | n8n e persistência de dados | Não confirmados |
-| Bot e integração Telegram | Não confirmados |
+| Integração do bot Gestor com o fluxo | Ainda não confirmada; a criação do bot já foi informada pelo usuário |
 | Agente Orquestrador e agentes especializados | Planejados |
 | Primeiro fluxo funcional | Piloto do Telegram definido; funcionamento ainda não testado |
 | Controles de acesso e backups | Planejados, sem implantação confirmada |
@@ -38,7 +40,7 @@ O documento original citado na conversa não estava disponível no histórico re
 
 ## Próxima ação
 
-Revisar o funcionamento proposto para cadastrar, listar e concluir tarefas pelo Telegram. Quando a conexão estiver normalizada, retomar a verificação da infraestrutura Oracle e preparar a implantação do piloto.
+Confirmar se já existe um ambiente n8n em funcionamento e onde ele executa. O bot Gestor e o ID do Telegram já foram obtidos segundo o usuário; o próximo componente a conferir é a automação. Quando a conexão estiver normalizada, retomar a verificação da infraestrutura Oracle conforme necessário.
 
 ## Histórico de atualização
 
@@ -46,3 +48,4 @@ Revisar o funcionamento proposto para cadastrar, listar e concluir tarefas pelo 
 - **30/10/2026:** publicação inicial dos sete arquivos pelo usuário; autenticação SSH na conta correta, leitura e simulação de envio validadas; manutenção do registro durante o trabalho ativo definida em D-004.
 - **30/10/2026:** atualização do registro publicada diretamente por SSH no commit `27c6bd9`.
 - **30/10/2026:** etapa da Oracle adiada a pedido do usuário por problemas de conexão; escolhido o piloto de receber e organizar tarefas pelo Telegram; proposta de comandos e critérios de aceite documentada.
+- **30/10/2026:** usuário confirmou conta Oracle, bot Gestor criado e ID do Telegram obtido. Integração do bot e ambiente n8n ainda precisam ser confirmados; nenhum token ou identificador pessoal foi incluído no registro.
