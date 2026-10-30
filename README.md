@@ -14,7 +14,7 @@ O usuário já informou que a conta Oracle está criada, o bot **Gestor** foi cr
 
 1. Leia [Continuidade](CONTINUIDADE.md) para recuperar o contexto e os limites deste registro.
 2. Consulte [Status](STATUS.md) para separar o que foi confirmado do que está pendente.
-3. Consulte o [primeiro teste pelo Telegram](PRIMEIRO_TESTE.md) e siga [Próximos passos](PROXIMOS_PASSOS.md). A próxima ação é conferir as opções de infraestrutura no painel Oracle.
+3. Consulte o [primeiro teste pelo Telegram](PRIMEIRO_TESTE.md), a [revisão da versão 2](REVISAO_V2.md) e [Próximos passos](PROXIMOS_PASSOS.md). A capacidade Oracle e os ajustes dos artefatos seguem pendentes.
 
 Documentos de referência:
 
@@ -33,7 +33,7 @@ Não há monitoramento de outros chats, cópia integral das conversas ou tarefa 
 
 ## Escopo e proteção dos dados
 
-Este registro inicial contém somente documentação. Não contém aplicação, servidor provisionado, workflows executáveis ou credenciais.
+O repositório contém documentação e um rascunho de código recebido, em `revisoes/versao-2/`, ainda não aprovado para implantação. Não há confirmação de servidor provisionado. Credenciais não devem ser versionadas.
 
 Não incluir senhas, tokens de bots, chaves de API, chaves privadas, arquivos de ambiente, dados pessoais, backups de serviços ou exportações com informações confidenciais. O arquivo [.gitignore](.gitignore) ajuda a excluir arquivos locais comuns; o conteúdo deve ser revisado antes de cada envio.
 

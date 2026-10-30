@@ -7,7 +7,7 @@ SHA-256 da versão revisada: `cc1644797795cef9e3af034822795bd7d76cf952b7d8f9437f
 
 ## Atualização sobre versão 2
 
-Em 30/10/2026, o usuário trouxe relato de uma versão 2 que corrigiria os pontos abaixo. O outro assistente informou 25 testes do fluxo e 93 do script com comandos simulados. Esses resultados e os arquivos v2 ainda não foram verificados nesta sessão; a revisão a seguir se aplica à versão anterior.
+Em 30/10/2026, o usuário forneceu o ZIP da versão 2. Os 25 testes locais do fluxo passaram; o script passou em verificação de sintaxe. Os 93 testes simulados do script não foram reproduzidos neste Windows. Persistem pendências descritas em REVISAO_V2.md; a revisão detalhada abaixo se refere à versão anterior.
 
 A cópia local conferida mantém o SHA-256 registrado abaixo, correspondente à versão anterior. O conteúdo completo colado no formulário Oracle não foi confirmado.
 

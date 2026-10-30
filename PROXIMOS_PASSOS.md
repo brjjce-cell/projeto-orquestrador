@@ -27,10 +27,12 @@ Data de referência: 30/10/2026. Esta lista é um plano; não autoriza contrata�
 - [x] Obter o fluxo n8n e documentação da outra sessão.
 - [x] Obter o script de inicialização; padrões comuns de credenciais não foram identificados, e o script não foi incluído no repositório.
 - [x] Revisar a lógica do fluxo com dados fictícios e registrar os resultados em REVISAO_ARTEFATOS.md.
-- [ ] Obter e revisar a versão 2 do fluxo e seus testes simulados relatados; confirmar as correções.
+- [x] Obter o fluxo v2 e reproduzir seus 25 testes simulados.
+- [ ] Corrigir a remoção automática de tarefas concluídas, a deduplicação limitada e as pendências de persistência em REVISAO_V2.md.
 - [ ] Testar o fluxo em um ambiente n8n real antes de usar.
 - [x] Revisar o script cloud-init sem executá-lo; resultados em REVISAO_CLOUD_INIT.md.
-- [ ] Obter e revisar a versão 2 do script, os testes e os arquivos auxiliares relatados; confirmar proteção do primeiro acesso e preservação da chave em reexecuções.
+- [x] Obter o script v2 e verificar sua sintaxe sem executá-lo.
+- [ ] Reproduzir os testes do script em ambiente adequado e validar proteção do primeiro acesso, SSH, preservação da chave e versões dos contêineres.
 - [ ] Verificar qual versão está no formulário Oracle e testar a instalação em ambiente adequado antes de utilizá-la.
 - [x] Conciliar `/listar` do relato com `/lista` do piloto planejado: o fluxo recebido aceita ambos.
 - [ ] Conferir a VCN, sub-redes, gateways, regras de entrada, recursos utilizados e custos no painel Oracle.

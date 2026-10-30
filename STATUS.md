@@ -2,7 +2,7 @@
 
 Última atualização: 30/10/2026.
 
-**Fase:** aguardando disponibilidade de capacidade A1 e revisão dos artefatos relatados após a delegação.
+**Fase:** aguardando capacidade A1 e correções dos artefatos da versão 2.
 
 ## Confirmado no registro disponível
 
@@ -27,11 +27,11 @@
 | Instância Oracle | Segundo relato da outra sessão, tentativas com A1.Flex em 2 OCPUs / 12 GB e 1 OCPU / 6 GB falharam por falta de capacidade; nenhuma instância criada |
 | Docker local | Instalação não concluída segundo o histórico |
 | Rede Oracle | Segundo o relato, VCN, sub-redes e gateways foram criados; configuração e custos ainda precisam de verificação direta |
-| Docker no servidor | Versão anterior do script revisada; versão 2 e testes simulados relatados, mas ainda não recebidos ou verificados; servidor não criado segundo o relato |
+| Docker no servidor | Script v2 recebido como rascunho e verificado apenas por sintaxe; testes simulados do script não reproduzidos aqui; servidor não criado segundo o relato |
 | n8n e persistência de dados | Usuário informou que o n8n ainda não está em funcionamento; preparação e persistência pendentes |
 | Integração do bot Gestor com o fluxo | Ainda não confirmada; a criação do bot já foi informada pelo usuário |
 | Agente Orquestrador e agentes especializados | Planejados |
-| Primeiro fluxo funcional | Fluxo anterior revisado; versão 2 e testes simulados relatados, mas ainda não recebidos ou verificados; integração real não testada |
+| Primeiro fluxo funcional | Fluxo v2 recebido; 25 testes simulados passaram, mas há pendências de histórico, duplicidade e persistência; integração real não testada |
 | Controles de acesso e backups | Planejados, sem implantação confirmada |
 | Tarefa agendada ou monitoramento de outros chats | Não configurados; o registro é mantido durante o trabalho ativo |
 
@@ -41,7 +41,7 @@ O documento original citado na conversa não estava disponível no histórico re
 
 ## Próxima ação
 
-Obter a versão 2 do script, do fluxo e dos testes relatados pela outra sessão; revisar os arquivos e validar as correções antes de substituir o script no formulário Oracle. Conferir diretamente recursos, regras de rede e custos na Oracle; retomar a criação A1 quando houver capacidade e após validar os ajustes. A recuperação do documento original de continuidade continua pendente em paralelo.
+Corrigir as pendências da versão 2 documentadas em REVISAO_V2.md e validar o script e o fluxo em ambiente adequado antes de alterar o formulário Oracle. Conferir recursos, regras de rede e custos; retomar a criação A1 quando houver capacidade. A recuperação do documento original de continuidade continua pendente em paralelo.
 
 ## Histórico de atualização
 
@@ -56,4 +56,5 @@ Obter a versão 2 do script, do fluxo e dos testes relatados pela outra sessão;
 - **30/10/2026:** relato da outra sessão informa VCN criada e falhas de capacidade A1 em 2 OCPUs / 12 GB e 1 OCPU / 6 GB. Não houve confirmação direta do estado ou custo da conta.
 - **30/10/2026:** recebidos README, STATUS e fluxo JSON da outra sessão. A lógica do fluxo foi revisada isoladamente com dados fictícios; foram identificadas pendências de duplicação, validação, privacidade em grupos, limite de tarefas e persistência.
 - **30/10/2026:** recebido e revisado sem execução o script cloud-init. A sintaxe Bash passou, mas foram identificadas pendências de segurança e confiabilidade.
-- **30/10/2026:** o usuário trouxe relato de versões 2 do script e do fluxo, com 25 e 93 testes simulados informados pelo outro assistente. Esses arquivos e resultados ainda não foram verificados aqui; a cópia local do script mantém o hash da versão anterior. A captura continua exibindo falta de capacidade A1; o conteúdo completo do script no formulário não foi confirmado.
+- **30/10/2026:** o usuário trouxe relato de versões 2 do script e do fluxo, com 25 e 93 testes simulados informados pelo outro assistente.
+- **30/10/2026:** recebido o ZIP v2 e preservados código e testes como rascunho. Os 25 testes do fluxo passaram aqui; o script passou na verificação de sintaxe, mas seus 93 testes não foram reproduzidos neste Windows. Testes independentes identificaram exclusão das tarefas concluídas mais antigas e limite da proteção contra duplicidade. A captura mostrava falta de capacidade A1; o conteúdo completo do script no formulário não foi confirmado.
