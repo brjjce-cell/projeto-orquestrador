@@ -41,6 +41,12 @@ Em 30/10/2026, as capturas de tela mostraram o formulário da instância com Ubu
 
 O formulário não liberou a opção de IPv4 público, mesmo após a seleção de uma nova sub-rede pública. O usuário abriu em outra aba o formulário separado para criar uma rede virtual. Não há confirmação de criação da VCN ou da instância. O controle de navegador desta sessão falhou ao iniciar, e o usuário pediu para delegar a continuação. Detalhes e próximos passos em ORACLE_CONTINUIDADE.md.
 
+## Relato recebido após a delegação
+
+Em 30/10/2026, o usuário forneceu o relato da outra sessão: uma VCN e componentes de rede teriam sido criados, mas as tentativas A1.Flex com 2 OCPUs / 12 GB e 1 OCPU / 6 GB falharam por falta de capacidade. A sessão relatou ter preparado um script de inicialização e um fluxo n8n, que ainda não foram disponibilizados aqui para inspeção. Recursos, regras e custos precisam ser verificados diretamente na conta.
+
+O relato intermediário mencionou 4 OCPUs / 24 GB como Always Free, mas a documentação oficial atual da Oracle informa limite total de 2 OCPUs / 12 GB para preservar instâncias A1 após a avaliação gratuita. Os detalhes, fontes e pendências constam em RELATO_CLAUDE.md.
+
 ## Limite das fontes
 
 O histórico menciona um documento completo de continuidade compartilhado anteriormente, mas esse documento não estava acessível na recuperação realizada para este registro. Não houve transcrição nem validação integral desse documento.

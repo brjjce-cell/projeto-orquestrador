@@ -2,7 +2,13 @@
 
 Atualização: 30/10/2026. Este registro resume capturas de tela e relatos do usuário; não substitui a conferência no painel.
 
-## O que foi observado
+## Relato posterior da sessão delegada
+
+O usuário forneceu um relato segundo o qual a VCN, sub-redes, gateways e regras foram criados, mas as tentativas A1.Flex com 2 OCPUs / 12 GB e 1 OCPU / 6 GB falharam por falta de capacidade. Segundo o relato, não foi criada instância. Também foram mencionados uma estimativa positiva para o volume de boot e artefatos de inicialização e fluxo n8n.
+
+Essas informações ainda não foram verificadas diretamente no painel, e os artefatos não estavam disponíveis nesta sessão para revisão. As ações atuais são obter os arquivos, revisar rede, custos e segurança e retomar a criação quando houver capacidade. Ver [Relato após delegação](RELATO_CLAUDE.md).
+
+## O que foi observado antes da delegação
 
 - Conta Free Tier em avaliação; região exibida: Brazil East (São Paulo). A região principal da conta e a elegibilidade precisam ser conferidas.
 - A lista de instâncias não mostrava itens no compartimento e na região selecionados; isso não confirma a inexistência de recursos em outros escopos.
@@ -12,7 +18,9 @@ Atualização: 30/10/2026. Este registro resume capturas de tela e relatos do us
 - O usuário abriu em outra aba o formulário separado para criar uma VCN. A criação dessa rede e da instância não foi confirmada.
 - O controle do navegador do assistente falhou ao iniciar. O usuário perguntou sobre delegar a continuação a outro assistente com acesso ao navegador.
 
-## Próximas verificações
+## Verificações originalmente planejadas
+
+A outra sessão relatou ter avançado em parte destas etapas. Conferir o estado real e evitar duplicações antes de realizá-las novamente.
 
 1. Conferir o estado atual do formulário e se alguma VCN ou sub-rede já foi criada; evitar criar recursos duplicados.
 2. Configurar uma VCN e sub-rede pública adequadas, com gateway de internet, rota e regras necessárias ao acesso. Verificar os recursos selecionados e seus custos antes de criá-los.
