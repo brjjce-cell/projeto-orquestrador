@@ -44,9 +44,9 @@ Registro inicial: 30/10/2026.
 
 **Data:** 30/10/2026.
 
-**Estado:** solicitado pelo usuário.
+**Estado:** adiamento encerrado após o usuário informar, em 30/10/2026, que o acesso à Oracle voltou.
 
-**Decisão:** adiar temporariamente a verificação da infraestrutura Oracle devido aos problemas de conexão relatados e avançar no planejamento do primeiro teste. Retomar a verificação quando a conexão estiver normalizada.
+**Decisão:** adiar temporariamente a verificação da infraestrutura Oracle devido aos problemas de conexão relatados e avançar no planejamento do primeiro teste. Após o relato de normalização do acesso, a verificação da infraestrutura volta a ser a próxima etapa.
 
 **Consequência:** a disponibilidade gratuita e a configuração do servidor continuam pendentes. Não houve provisionamento nesta etapa.
 

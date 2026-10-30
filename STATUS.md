@@ -2,7 +2,7 @@
 
 Última atualização: 30/10/2026.
 
-**Fase:** definição do primeiro teste; verificação da infraestrutura adiada.
+**Fase:** verificação da infraestrutura retomada após relato de normalização do acesso à Oracle.
 
 ## Confirmado no registro disponível
 
@@ -11,7 +11,7 @@
 | Conta Oracle Cloud | Criada segundo o usuário | Relato em 30/10/2026 |
 | Bot do Telegram | Bot denominado Gestor já criado | Relato do usuário em 30/10/2026; nome de usuário não informado |
 | ID do Telegram | Já obtido pelo usuário | Relato em 30/10/2026; valor mantido fora do repositório |
-| Acesso ao painel Oracle | Registrado no histórico | Conversa indica região de São Paulo |
+| Acesso ao painel Oracle | Restabelecido segundo o usuário após problema de conexão | Relato em 30/10/2026; histórico indica região de São Paulo |
 | Registro oficial no GitHub | Este repositório privado | Autorização do usuário e publicação destes documentos |
 | Documentação inicial | README, continuidade, arquitetura, decisões, status e próximos passos | Arquivos deste repositório |
 | Acesso SSH ao GitHub | Autenticado na conta `brjjce-cell` | Teste de autenticação em 30/10/2026 |
@@ -24,7 +24,7 @@
 
 | Item | Situação |
 | --- | --- |
-| Instância Oracle | Verificação adiada por problemas de conexão relatados pelo usuário; criação e configuração não confirmadas |
+| Instância Oracle | Verificação retomada após relato de normalização do acesso; disponibilidade, criação e configuração ainda não confirmadas |
 | Docker local | Instalação não concluída segundo o histórico |
 | Docker no servidor | Não confirmado |
 | n8n e persistência de dados | Usuário informou que o n8n ainda não está em funcionamento; preparação e persistência pendentes |
@@ -40,7 +40,7 @@ O documento original citado na conversa não estava disponível no histórico re
 
 ## Próxima ação
 
-Recuperar e reconciliar o documento original de continuidade enquanto a etapa da Oracle está adiada. O usuário confirmou que o n8n ainda não está em funcionamento. Quando a conexão permitir retomar a infraestrutura, preparar o ambiente e integrar o bot Gestor já criado ao fluxo de tarefas.
+Conferir a tela de Computação > Instâncias no painel Oracle e avaliar uma configuração gratuita antes de provisionar recursos. O usuário informou que o acesso voltou. Depois de validar a infraestrutura, preparar o ambiente n8n e integrar o bot Gestor já criado ao fluxo de tarefas. A recuperação do documento original de continuidade continua pendente em paralelo.
 
 ## Histórico de atualização
 
@@ -49,4 +49,5 @@ Recuperar e reconciliar o documento original de continuidade enquanto a etapa da
 - **30/10/2026:** atualização do registro publicada diretamente por SSH no commit `27c6bd9`.
 - **30/10/2026:** etapa da Oracle adiada a pedido do usuário por problemas de conexão; escolhido o piloto de receber e organizar tarefas pelo Telegram; proposta de comandos e critérios de aceite documentada.
 - **30/10/2026:** usuário confirmou conta Oracle, bot Gestor criado e ID do Telegram obtido; nenhum token ou identificador pessoal foi incluído no registro.
-- **30/10/2026:** usuário confirmou que o n8n ainda não está em funcionamento. A preparação do ambiente e a integração do Gestor continuam pendentes; recuperar o documento original de continuidade é a próxima ação enquanto a Oracle permanece adiada.
+- **30/10/2026:** usuário confirmou que o n8n ainda não está em funcionamento. A preparação do ambiente e a integração do Gestor continuam pendentes; durante a indisponibilidade da Oracle, priorizada a recuperação do documento original de continuidade.
+- **30/10/2026:** usuário informou que o acesso à Oracle voltou. Retomada a verificação da infraestrutura como próxima etapa; instância, elegibilidade gratuita e n8n ainda não foram validados.

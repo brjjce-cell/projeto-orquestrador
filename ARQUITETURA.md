@@ -28,7 +28,7 @@ O diagrama representa o fluxo discutido, sem definir protocolos, bibliotecas ou 
 
 Em 30/10/2026, o usuário escolheu receber e organizar tarefas pelo Telegram. O fluxo proposto é Telegram → validação no n8n → armazenamento persistente das tarefas → resposta no Telegram. O piloto cobre cadastro, listagem e conclusão por regras simples; a escolha do armazenamento e a implementação continuam pendentes. Ver [Primeiro teste](PRIMEIRO_TESTE.md).
 
-A verificação da Oracle foi adiada por problemas de conexão relatados pelo usuário. O diagrama geral continua representando a visão futura do projeto.
+A verificação da Oracle foi temporariamente adiada por problemas de conexão. O usuário informou em seguida, em 30/10/2026, que o acesso voltou; a conferência das opções de instância passa a ser a próxima etapa. O diagrama geral continua representando a visão futura do projeto.
 
 ## Componentes discutidos
 

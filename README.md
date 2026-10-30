@@ -6,7 +6,7 @@ Registro oficial de continuidade do Projeto Orquestrador, mantido em repositóri
 
 Planejar um sistema que receba comandos e aprovações pelo Telegram e coordene automações e agentes especializados. A estrutura discutida prevê Docker e n8n em um servidor Oracle Cloud.
 
-**Fase atual:** definição do primeiro teste: receber e organizar tarefas pelo Telegram. A verificação da infraestrutura Oracle foi adiada a pedido do usuário por problemas de conexão. O n8n ainda não está em funcionamento, segundo o usuário. O funcionamento do servidor e dos agentes ainda não foi confirmado.
+**Fase atual:** verificação da infraestrutura para executar o primeiro teste: receber e organizar tarefas pelo Telegram. O usuário informou que o acesso à Oracle voltou; a conferência das opções de servidor passa a ser a próxima etapa. O n8n ainda não está em funcionamento, segundo o usuário. O funcionamento do servidor e dos agentes ainda não foi confirmado.
 
 O usuário já informou que a conta Oracle está criada, o bot **Gestor** foi criado e seu ID do Telegram foi obtido. O n8n ainda precisa ser preparado, e a integração do bot está pendente. Credenciais e identificadores pessoais permanecem fora do repositório.
 
@@ -14,7 +14,7 @@ O usuário já informou que a conta Oracle está criada, o bot **Gestor** foi cr
 
 1. Leia [Continuidade](CONTINUIDADE.md) para recuperar o contexto e os limites deste registro.
 2. Consulte [Status](STATUS.md) para separar o que foi confirmado do que está pendente.
-3. Consulte o [primeiro teste pelo Telegram](PRIMEIRO_TESTE.md) e siga [Próximos passos](PROXIMOS_PASSOS.md). A verificação da infraestrutura será retomada quando a conexão estiver normalizada.
+3. Consulte o [primeiro teste pelo Telegram](PRIMEIRO_TESTE.md) e siga [Próximos passos](PROXIMOS_PASSOS.md). A próxima ação é conferir as opções de infraestrutura no painel Oracle.
 
 Documentos de referência:
 

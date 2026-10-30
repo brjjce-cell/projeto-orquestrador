@@ -8,7 +8,7 @@ Data: 30/10/2026.
 
 ## Objetivo
 
-Validar um ciclo simples: enviar uma tarefa, receber confirmação, consultar pendências e marcar a tarefa como concluída. A verificação da Oracle foi adiada a pedido do usuário por problemas de conexão.
+Validar um ciclo simples: enviar uma tarefa, receber confirmação, consultar pendências e marcar a tarefa como concluída. A verificação da Oracle foi retomada após o usuário informar que o acesso voltou, em 30/10/2026.
 
 ## Pré-requisitos informados
 
@@ -80,7 +80,7 @@ A coordenação deste piloto usa regras simples de cadastro e consulta. Modelos 
 - Escopo escolhido e proposta de comandos registrados neste documento.
 - Revisão das regras e das respostas esperadas sem depender do painel Oracle.
 
-## Quando a conexão estiver normalizada
+## Próxima etapa: infraestrutura
 
 Retomar a verificação da infraestrutura conforme necessário; preparar o ambiente e o armazenamento persistente; configurar a integração com o bot Gestor já criado, mantendo credenciais e identificadores pessoais fora do GitHub; implementar o fluxo e executar os critérios de aceite.
 

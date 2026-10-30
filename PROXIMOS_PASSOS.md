@@ -13,7 +13,7 @@ Data de referência: 30/10/2026. Esta lista é um plano; não autoriza contrata�
 
 **Resultado esperado:** um escopo mínimo claro. O planejamento avançou; implementação e teste real permanecem pendentes.
 
-## 2. Recuperar e reconciliar o documento de continuidade — próxima ação
+## 2. Recuperar e reconciliar o documento de continuidade — pendência paralela
 
 - [ ] Recuperar o documento original mencionado na conversa.
 - [ ] Revisar e remover informações confidenciais antes de incorporá-lo.
@@ -22,9 +22,9 @@ Data de referência: 30/10/2026. Esta lista é um plano; não autoriza contrata�
 
 **Resultado esperado:** continuidade validada contra a fonte original.
 
-## 3. Verificar a opção gratuita de infraestrutura — adiado
+## 3. Verificar a opção gratuita de infraestrutura — próxima ação
 
-Etapa adiada a pedido do usuário por problemas de conexão. Retomar quando a conexão estiver normalizada.
+Etapa retomada após o usuário informar, em 30/10/2026, que o acesso à Oracle voltou. A disponibilidade de recursos ainda precisa ser conferida.
 
 - [ ] Acessar Computação > Instâncias no painel Oracle.
 - [ ] Conferir região, capacidade disponível, elegibilidade gratuita e limites aplicáveis.

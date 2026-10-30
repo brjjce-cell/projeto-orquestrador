@@ -25,13 +25,15 @@ Em 30/10/2026, o usuário confirmou que já possui conta Oracle, bot denominado 
 
 O usuário confirmou que o n8n ainda não está em funcionamento. A preparação do ambiente e a integração do Gestor ao fluxo permanecem pendentes. Aproveitar o bot já criado quando a infraestrutura puder ser preparada.
 
-Enquanto a etapa da Oracle estiver adiada, recuperar e reconciliar o documento original de continuidade para completar as decisões e os requisitos já planejados.
+O usuário informou depois que o acesso à Oracle voltou. Retomar a verificação da infraestrutura e manter a recuperação do documento original de continuidade como pendência paralela.
 
 ## Mudança de prioridade em 30/10/2026
 
 O usuário relatou problemas de conexão e pediu para pular temporariamente a etapa da Oracle. Em seguida, escolheu receber e organizar tarefas pelo Telegram como primeiro teste.
 
-A prioridade atual é definir esse fluxo. A proposta documentada em PRIMEIRO_TESTE.md prevê cadastrar, listar e concluir tarefas. Os comandos e as regras são uma proposta de funcionamento; não houve implementação ou teste real. A verificação da Oracle e a implantação serão retomadas quando a conexão estiver normalizada.
+Durante a indisponibilidade, foi definido o escopo desse fluxo. A proposta documentada em PRIMEIRO_TESTE.md prevê cadastrar, listar e concluir tarefas. Os comandos e as regras são uma proposta de funcionamento; não houve implementação ou teste real.
+
+Em seguida, ainda em 30/10/2026, o usuário informou que o acesso à Oracle voltou. A prioridade atual passa a ser conferir as opções de instância e sua elegibilidade gratuita antes de qualquer provisionamento. A disponibilidade de recursos e a existência de uma instância ainda não foram verificadas nesta etapa.
 
 ## Limite das fontes
 
