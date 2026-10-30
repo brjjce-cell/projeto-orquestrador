@@ -4,7 +4,7 @@ Data: 30/10/2026.
 
 **Escolha confirmada pelo usuário:** receber e organizar tarefas pelo Telegram.
 
-**Estado:** proposta de funcionamento documentada; bot Gestor criado e ID do Telegram obtido segundo o usuário. Integração, armazenamento e execução ainda não confirmados.
+**Estado:** proposta de funcionamento documentada; bot Gestor criado e ID do Telegram obtido segundo o usuário. O usuário informou que o n8n ainda não está em funcionamento. Integração, armazenamento e execução permanecem pendentes.
 
 ## Objetivo
 
@@ -15,7 +15,8 @@ Validar um ciclo simples: enviar uma tarefa, receber confirmação, consultar pe
 - [x] Conta Oracle criada, conforme relato do usuário.
 - [x] Bot do Telegram denominado Gestor criado, conforme relato do usuário.
 - [x] ID do Telegram obtido pelo usuário; valor não registrado aqui.
-- [ ] Confirmar existência e localização de um ambiente n8n em funcionamento.
+- [x] Confirmar a situação do n8n: usuário informou que ainda não está em funcionamento.
+- [ ] Preparar um ambiente n8n para executar o piloto.
 - [ ] Configurar credenciais e a integração do bot nesse ambiente.
 - [ ] Preparar o armazenamento das tarefas e executar o teste.
 

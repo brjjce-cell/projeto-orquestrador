@@ -23,7 +23,9 @@ Foram citados agentes de pesquisa, criação e análise. Também foram mencionad
 
 Em 30/10/2026, o usuário confirmou que já possui conta Oracle, bot denominado Gestor criado e seu ID do Telegram. O nome de usuário do bot não foi informado; a criação e o funcionamento não foram verificados diretamente no Telegram nesta etapa. Nenhum token ou valor de identificador pessoal foi incorporado ao repositório.
 
-A integração do Gestor ao fluxo e a existência de um ambiente n8n em funcionamento ainda precisam ser confirmadas. Retomar a partir desses pontos, aproveitando o bot já criado.
+O usuário confirmou que o n8n ainda não está em funcionamento. A preparação do ambiente e a integração do Gestor ao fluxo permanecem pendentes. Aproveitar o bot já criado quando a infraestrutura puder ser preparada.
+
+Enquanto a etapa da Oracle estiver adiada, recuperar e reconciliar o documento original de continuidade para completar as decisões e os requisitos já planejados.
 
 ## Mudança de prioridade em 30/10/2026
 

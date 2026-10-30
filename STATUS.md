@@ -27,7 +27,7 @@
 | Instância Oracle | Verificação adiada por problemas de conexão relatados pelo usuário; criação e configuração não confirmadas |
 | Docker local | Instalação não concluída segundo o histórico |
 | Docker no servidor | Não confirmado |
-| n8n e persistência de dados | Não confirmados |
+| n8n e persistência de dados | Usuário informou que o n8n ainda não está em funcionamento; preparação e persistência pendentes |
 | Integração do bot Gestor com o fluxo | Ainda não confirmada; a criação do bot já foi informada pelo usuário |
 | Agente Orquestrador e agentes especializados | Planejados |
 | Primeiro fluxo funcional | Piloto do Telegram definido; funcionamento ainda não testado |
@@ -40,7 +40,7 @@ O documento original citado na conversa não estava disponível no histórico re
 
 ## Próxima ação
 
-Confirmar se já existe um ambiente n8n em funcionamento e onde ele executa. O bot Gestor e o ID do Telegram já foram obtidos segundo o usuário; o próximo componente a conferir é a automação. Quando a conexão estiver normalizada, retomar a verificação da infraestrutura Oracle conforme necessário.
+Recuperar e reconciliar o documento original de continuidade enquanto a etapa da Oracle está adiada. O usuário confirmou que o n8n ainda não está em funcionamento. Quando a conexão permitir retomar a infraestrutura, preparar o ambiente e integrar o bot Gestor já criado ao fluxo de tarefas.
 
 ## Histórico de atualização
 
@@ -48,4 +48,5 @@ Confirmar se já existe um ambiente n8n em funcionamento e onde ele executa. O b
 - **30/10/2026:** publicação inicial dos sete arquivos pelo usuário; autenticação SSH na conta correta, leitura e simulação de envio validadas; manutenção do registro durante o trabalho ativo definida em D-004.
 - **30/10/2026:** atualização do registro publicada diretamente por SSH no commit `27c6bd9`.
 - **30/10/2026:** etapa da Oracle adiada a pedido do usuário por problemas de conexão; escolhido o piloto de receber e organizar tarefas pelo Telegram; proposta de comandos e critérios de aceite documentada.
-- **30/10/2026:** usuário confirmou conta Oracle, bot Gestor criado e ID do Telegram obtido. Integração do bot e ambiente n8n ainda precisam ser confirmados; nenhum token ou identificador pessoal foi incluído no registro.
+- **30/10/2026:** usuário confirmou conta Oracle, bot Gestor criado e ID do Telegram obtido; nenhum token ou identificador pessoal foi incluído no registro.
+- **30/10/2026:** usuário confirmou que o n8n ainda não está em funcionamento. A preparação do ambiente e a integração do Gestor continuam pendentes; recuperar o documento original de continuidade é a próxima ação enquanto a Oracle permanece adiada.

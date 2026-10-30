@@ -2,18 +2,18 @@
 
 Data de referência: 30/10/2026. Esta lista é um plano; não autoriza contratações, exposição de serviços ou alterações fora deste repositório.
 
-## 1. Definir o piloto de tarefas pelo Telegram — prioridade atual
+## 1. Definir o piloto de tarefas pelo Telegram — planejamento registrado
 
 - [x] Escolher o primeiro fluxo: receber e organizar tarefas pelo Telegram.
 - [x] Documentar uma proposta de cadastro, listagem e conclusão de tarefas em [Primeiro teste](PRIMEIRO_TESTE.md).
 - [x] Definir exemplos de resposta e critérios de aceite.
-- [ ] Confirmar se o n8n já funciona e onde executa.
+- [x] Confirmar a situação do n8n: usuário informou que ainda não está em funcionamento.
 - [ ] Revisar a proposta com base em eventuais ajustes do usuário.
 - [ ] Definir o armazenamento persistente e a forma de integração na preparação da infraestrutura.
 
 **Resultado esperado:** um escopo mínimo claro. O planejamento avançou; implementação e teste real permanecem pendentes.
 
-## 2. Recuperar e reconciliar o documento de continuidade
+## 2. Recuperar e reconciliar o documento de continuidade — próxima ação
 
 - [ ] Recuperar o documento original mencionado na conversa.
 - [ ] Revisar e remover informações confidenciais antes de incorporá-lo.
@@ -34,7 +34,7 @@ Etapa adiada a pedido do usuário por problemas de conexão. Retomar quando a co
 
 ## 4. Preparar a implantação
 
-Após validar a configuração e obter autorização para as ações de infraestrutura:
+O n8n ainda não está em funcionamento, conforme relato do usuário. Após retomar e validar a configuração da infraestrutura e obter autorização para as ações necessárias:
 
 - [ ] Criar e configurar o servidor.
 - [ ] Preparar Docker, armazenamento persistente e n8n.

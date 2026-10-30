@@ -37,7 +37,7 @@ A verificação da Oracle foi adiada por problemas de conexão relatados pelo us
 | Telegram | Receber comandos e apresentar resultados e pedidos de aprovação | Bot Gestor criado e ID do usuário obtido segundo relato; integração ainda não confirmada |
 | Oracle Cloud | Hospedar a infraestrutura, priorizando recursos gratuitos elegíveis | Conta criada segundo relato; instância não confirmada |
 | Docker | Executar os serviços em contêineres | Planejado no servidor |
-| n8n | Coordenar automações e etapas de execução | Planejado; instalação e workflows não confirmados |
+| n8n | Coordenar automações e etapas de execução | Ainda não está em funcionamento, segundo o usuário; preparação e workflows pendentes |
 | Agente Orquestrador | Planejar, distribuir e acompanhar tarefas | Conceitual |
 | Agentes especializados | Executar pesquisa, criação e análise | Conceituais |
 | Este repositório | Preservar documentação, decisões e progresso | Registro oficial |
