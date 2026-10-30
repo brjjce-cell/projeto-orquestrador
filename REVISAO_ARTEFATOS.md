@@ -2,6 +2,10 @@
 
 Data: 30/10/2026.
 
+## Atualização sobre versão 2
+
+Em 30/10/2026, o usuário trouxe relato de uma versão 2 que corrigiria os pontos abaixo. O outro assistente informou 25 testes do fluxo e 93 do script com comandos simulados. Esses resultados e os arquivos v2 ainda não foram verificados nesta sessão; a revisão a seguir se aplica à versão anterior.
+
 ## Arquivos recebidos
 
 Foram lidos os arquivos README.md, STATUS.md e gestor-tarefas-telegram.json fornecidos pelo usuário. Posteriormente, o script cloud-init foi recebido e revisado sem execução; seus resultados estão em REVISAO_CLOUD_INIT.md. Nenhuma credencial ou chave privada foi incorporada ao repositório.

@@ -27,11 +27,11 @@
 | Instância Oracle | Segundo relato da outra sessão, tentativas com A1.Flex em 2 OCPUs / 12 GB e 1 OCPU / 6 GB falharam por falta de capacidade; nenhuma instância criada |
 | Docker local | Instalação não concluída segundo o histórico |
 | Rede Oracle | Segundo o relato, VCN, sub-redes e gateways foram criados; configuração e custos ainda precisam de verificação direta |
-| Docker no servidor | Script recebido e revisado sem execução; ajustes de segurança e confiabilidade pendentes; servidor não criado segundo o relato |
+| Docker no servidor | Versão anterior do script revisada; versão 2 e testes simulados relatados, mas ainda não recebidos ou verificados; servidor não criado segundo o relato |
 | n8n e persistência de dados | Usuário informou que o n8n ainda não está em funcionamento; preparação e persistência pendentes |
 | Integração do bot Gestor com o fluxo | Ainda não confirmada; a criação do bot já foi informada pelo usuário |
 | Agente Orquestrador e agentes especializados | Planejados |
-| Primeiro fluxo funcional | Fluxo recebido e lógica examinada com dados fictícios; correções pendentes e integração real não testada |
+| Primeiro fluxo funcional | Fluxo anterior revisado; versão 2 e testes simulados relatados, mas ainda não recebidos ou verificados; integração real não testada |
 | Controles de acesso e backups | Planejados, sem implantação confirmada |
 | Tarefa agendada ou monitoramento de outros chats | Não configurados; o registro é mantido durante o trabalho ativo |
 
@@ -41,7 +41,7 @@ O documento original citado na conversa não estava disponível no histórico re
 
 ## Próxima ação
 
-Corrigir o script de inicialização e o fluxo n8n conforme REVISAO_CLOUD_INIT.md e REVISAO_ARTEFATOS.md. Conferir diretamente recursos, regras de rede e custos na Oracle; retomar a criação A1 quando houver capacidade e após validar os ajustes. A recuperação do documento original de continuidade continua pendente em paralelo.
+Obter a versão 2 do script, do fluxo e dos testes relatados pela outra sessão; revisar os arquivos e validar as correções antes de substituir o script no formulário Oracle. Conferir diretamente recursos, regras de rede e custos na Oracle; retomar a criação A1 quando houver capacidade e após validar os ajustes. A recuperação do documento original de continuidade continua pendente em paralelo.
 
 ## Histórico de atualização
 
@@ -55,4 +55,5 @@ Corrigir o script de inicialização e o fluxo n8n conforme REVISAO_CLOUD_INIT.m
 - **30/10/2026:** capturas mostraram seleção de Ubuntu 24.04 Minimal aarch64 e VM.Standard.A1.Flex com 2 OCPUs e 12 GB no formulário. A designação de IPv4 público permaneceu bloqueada; o usuário pediu para delegar a continuação.
 - **30/10/2026:** relato da outra sessão informa VCN criada e falhas de capacidade A1 em 2 OCPUs / 12 GB e 1 OCPU / 6 GB. Não houve confirmação direta do estado ou custo da conta.
 - **30/10/2026:** recebidos README, STATUS e fluxo JSON da outra sessão. A lógica do fluxo foi revisada isoladamente com dados fictícios; foram identificadas pendências de duplicação, validação, privacidade em grupos, limite de tarefas e persistência.
-- **30/10/2026:** recebido e revisado sem execução o script cloud-init. A sintaxe Bash passou, mas há pendências de proteção do primeiro acesso ao n8n, preservação da chave de criptografia, rede, SSH e confiabilidade. Não há confirmação de instância criada.
+- **30/10/2026:** recebido e revisado sem execução o script cloud-init. A sintaxe Bash passou, mas foram identificadas pendências de segurança e confiabilidade.
+- **30/10/2026:** o usuário trouxe relato de versões 2 do script e do fluxo, com 25 e 93 testes simulados informados pelo outro assistente. Esses arquivos e resultados ainda não foram verificados aqui; a cópia local do script mantém o hash da versão anterior. A captura continua exibindo falta de capacidade A1; o conteúdo completo do script no formulário não foi confirmado.

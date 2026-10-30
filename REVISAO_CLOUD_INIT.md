@@ -5,6 +5,12 @@ Data: 30/10/2026.
 Arquivo recebido: `cloud-init-orquestrador.sh`.
 SHA-256 da versão revisada: `cc1644797795cef9e3af034822795bd7d76cf952b7d8f9437f169b8fedbfacf4`.
 
+## Atualização sobre versão 2
+
+Em 30/10/2026, o usuário trouxe relato de uma versão 2 que corrigiria os pontos abaixo. O outro assistente informou 25 testes do fluxo e 93 do script com comandos simulados. Esses resultados e os arquivos v2 ainda não foram verificados nesta sessão; a revisão a seguir se aplica à versão anterior.
+
+A cópia local conferida mantém o SHA-256 registrado abaixo, correspondente à versão anterior. O conteúdo completo colado no formulário Oracle não foi confirmado.
+
 ## Escopo da revisão
 
 O conteúdo foi examinado sem executá-lo. A verificação `bash -n` não encontrou erro de sintaxe; isso não comprova instalação, segurança ou funcionamento na Oracle. Uma busca por padrões comuns não identificou credenciais no arquivo, mas não substitui revisão de segredos. O script recebido não foi incluído neste repositório nem aplicado a servidor.
