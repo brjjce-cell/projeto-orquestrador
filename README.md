@@ -21,9 +21,13 @@ Documentos de referência:
 
 ## Como manter o registro
 
-Ao concluir uma etapa, atualize o status, registre decisões relevantes e revise o próximo passo no mesmo commit. Informe a data, o que mudou e a evidência disponível, sem anexar informações confidenciais.
+Durante o trabalho ativo nesta conversa e neste projeto, o assistente deve registrar as decisões confirmadas, os avanços, os testes e as pendências relevantes sem exigir um pedido separado a cada etapa. Ao concluir uma etapa, atualizar o status, registrar as decisões e revisar o próximo passo no mesmo commit.
 
-Este repositório não recebe atualizações automáticas das conversas. Nenhuma sincronização ou rotina de backup foi configurada nesta etapa.
+O registro contém resumos de continuidade. Perguntas sem mudança no projeto não exigem um novo commit. Informar a data, o que mudou e a evidência disponível, sem anexar informações confidenciais.
+
+O acesso Git por SSH à conta `brjjce-cell` foi validado em 30/10/2026, incluindo leitura do repositório e simulação de envio. Esse é o caminho disponível para publicar as próximas atualizações.
+
+Não há monitoramento de outros chats, cópia integral das conversas ou tarefa agendada configurada. O registro acontece durante o trabalho ativo do assistente; informações de outras conversas precisam ser recuperadas ou fornecidas antes de serem incorporadas. Nenhuma rotina de backup foi configurada nesta etapa.
 
 ## Escopo e proteção dos dados
 

@@ -12,6 +12,9 @@
 | Acesso ao painel Oracle | Registrado no histórico | Conversa indica região de São Paulo |
 | Registro oficial no GitHub | Este repositório privado | Autorização do usuário e publicação destes documentos |
 | Documentação inicial | README, continuidade, arquitetura, decisões, status e próximos passos | Arquivos deste repositório |
+| Acesso SSH ao GitHub | Autenticado na conta `brjjce-cell` | Teste de autenticação em 30/10/2026 |
+| Leitura e envio por Git/SSH | Leitura de `main` e simulação de envio concluídas | Testes em 30/10/2026 |
+| Manutenção durante o trabalho ativo | Registro de mudanças relevantes sem pedido separado a cada etapa | Orientação em README.md, DECISOES.md e AGENTS.md |
 
 ## Planejado ou sem conclusão confirmada
 
@@ -25,7 +28,7 @@
 | Agente Orquestrador e agentes especializados | Planejados |
 | Primeiro fluxo funcional | Não confirmado |
 | Controles de acesso e backups | Planejados, sem implantação confirmada |
-| Sincronização automática das conversas | Não configurada nesta etapa |
+| Tarefa agendada ou monitoramento de outros chats | Não configurados; o registro é mantido durante o trabalho ativo |
 
 ## Lacuna de continuidade
 
@@ -38,3 +41,4 @@ Verificar no painel Oracle a disponibilidade e a elegibilidade de uma configura�
 ## Histórico de atualização
 
 - **30/10/2026:** registro inicial da continuidade e da arquitetura planejada, com distinção entre fatos relatados, propostas e pendências.
+- **30/10/2026:** publicação inicial dos sete arquivos pelo usuário; autenticação SSH na conta correta, leitura e simulação de envio validadas; manutenção do registro durante o trabalho ativo definida em D-004.

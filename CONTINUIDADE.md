@@ -15,6 +15,9 @@ Foram citados agentes de pesquisa, criação e análise. Também foram mencionad
 - O próximo passo discutido era acessar Computação > Instâncias e avaliar uma configuração gratuita antes de criar o servidor.
 - A instalação local do Docker não foi concluída segundo o histórico, motivando a avaliação antecipada de um servidor em nuvem.
 - O usuário autorizou criar um repositório GitHub privado chamado `projeto-orquestrador` como registro oficial.
+- O repositório privado foi criado na conta `brjjce-cell`, e o usuário publicou os sete arquivos iniciais em 30/10/2026.
+- O acesso por SSH autenticou na conta `brjjce-cell`; a leitura da branch `main` e uma simulação de envio foram concluídas com sucesso.
+- O usuário solicitou que o registro acompanhe as conversas. Durante o trabalho ativo neste contexto, as mudanças relevantes devem ser resumidas e publicadas sem um novo pedido a cada etapa.
 
 ## Limite das fontes
 
@@ -29,10 +32,12 @@ As informações sobre implantação refletem o relato disponível; não foram v
 1. Consultar este repositório e a versão mais recente de STATUS.md.
 2. Confirmar se houve alguma ação fora do registro.
 3. Avançar na primeira tarefa pendente de PROXIMOS_PASSOS.md.
-4. Atualizar os documentos ao concluir a etapa.
+4. Atualizar e publicar os documentos ao concluir uma etapa relevante, dentro da autorização aplicável ao projeto.
 
 O usuário prefere explicações curtas, claras e diretas, com um passo por vez.
 
 ## Persistência do registro
 
-O GitHub passa a centralizar a documentação. O histórico de conversas permanece uma fonte complementar. Alterações nas conversas não são copiadas automaticamente para este repositório.
+O GitHub centraliza a documentação. O histórico de conversas permanece uma fonte complementar. Durante o trabalho ativo, o assistente deve manter resumos de decisões, progresso, testes e pendências por Git/SSH. Não há transcrição integral, monitoramento de outros chats ou tarefa agendada configurada.
+
+A orientação de manutenção foi registrada também em AGENTS.md para tarefas abertas neste repositório. Em uma nova conversa, consultar este registro antes de continuar e recuperar qualquer contexto adicional necessário.

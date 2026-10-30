@@ -10,7 +10,7 @@ Registro inicial: 30/10/2026.
 
 **Motivo:** reduzir a dependência do histórico de conversas para retomar o projeto.
 
-**Consequência:** as etapas futuras devem atualizar os documentos. Não foi configurada sincronização automática com conversas.
+**Consequência:** as etapas futuras devem atualizar os documentos conforme D-004. Não foi configurado um serviço de sincronização ou uma tarefa agendada.
 
 ## D-002 — Não incluir informações confidenciais
 
@@ -24,7 +24,21 @@ Registro inicial: 30/10/2026.
 
 **Estado:** requisito expresso do usuário.
 
-**Decisão:** o trabalho desta etapa se restringe à criação e ao registro inicial de `projeto-orquestrador`, sem alterar outros repositórios.
+**Decisão:** a criação e a manutenção do registro se restringem a `projeto-orquestrador`, sem alterar outros repositórios.
+
+## D-004 — Manter o registro durante o trabalho ativo
+
+**Data:** 30/10/2026.
+
+**Estado:** adotado em resposta à solicitação do usuário de atualização ao longo das conversas.
+
+**Decisão:** ao concluir uma etapa relevante do projeto neste contexto, o assistente deve resumir decisões confirmadas, avanços, testes e pendências, atualizar os documentos afetados e publicar a atualização por Git/SSH dentro da autorização aplicável. Não é necessário um pedido separado a cada etapa.
+
+**Motivo:** o acesso SSH à conta correta foi validado, permitindo manter o registro diretamente sem depender do envio manual de arquivos pelo usuário.
+
+**Limites:** não transcrever conversas integralmente, não incluir segredos ou dados confidenciais e não registrar inferências como fatos concluídos. Perguntas sem mudanças no projeto não exigem um commit. Não há tarefa agendada ou monitoramento de outros chats configurado; a manutenção ocorre durante o trabalho ativo com o contexto disponível.
+
+**Evidência técnica:** autenticação SSH na conta `brjjce-cell`, leitura de `main` e simulação de envio concluídas em 30/10/2026. Essa validação se refere ao GitHub; não houve teste de acesso SSH a um servidor Oracle.
 
 ## Direções de arquitetura registradas no histórico
 
