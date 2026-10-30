@@ -31,7 +31,7 @@
 | n8n e persistência de dados | Usuário informou que o n8n ainda não está em funcionamento; preparação e persistência pendentes |
 | Integração do bot Gestor com o fluxo | Ainda não confirmada; a criação do bot já foi informada pelo usuário |
 | Agente Orquestrador e agentes especializados | Planejados |
-| Primeiro fluxo funcional | Piloto do Telegram definido; funcionamento ainda não testado |
+| Primeiro fluxo funcional | Fluxo recebido e lógica examinada com dados fictícios; correções pendentes e integração real não testada |
 | Controles de acesso e backups | Planejados, sem implantação confirmada |
 | Tarefa agendada ou monitoramento de outros chats | Não configurados; o registro é mantido durante o trabalho ativo |
 
@@ -41,7 +41,7 @@ O documento original citado na conversa não estava disponível no histórico re
 
 ## Próxima ação
 
-Obter e revisar o fluxo n8n e o script de inicialização relatados, sem credenciais ou chaves privadas. Conferir diretamente recursos, regras de rede e custos na Oracle; retomar a criação A1 quando houver capacidade. Ver RELATO_CLAUDE.md e ORACLE_CONTINUIDADE.md. A recuperação do documento original de continuidade continua pendente em paralelo.
+Obter e revisar o script de inicialização cloud-init, sem credenciais ou chaves privadas, e corrigir os pontos encontrados no fluxo n8n. Conferir diretamente recursos, regras de rede e custos na Oracle; retomar a criação A1 quando houver capacidade. Ver REVISAO_ARTEFATOS.md, RELATO_CLAUDE.md e ORACLE_CONTINUIDADE.md. A recuperação do documento original de continuidade continua pendente em paralelo.
 
 ## Histórico de atualização
 
@@ -53,4 +53,5 @@ Obter e revisar o fluxo n8n e o script de inicialização relatados, sem credenc
 - **30/10/2026:** usuário confirmou que o n8n ainda não está em funcionamento. A preparação do ambiente e a integração do Gestor continuam pendentes; durante a indisponibilidade da Oracle, priorizada a recuperação do documento original de continuidade.
 - **30/10/2026:** usuário informou que o acesso à Oracle voltou. Retomada a verificação da infraestrutura como próxima etapa; instância, elegibilidade gratuita e n8n ainda não foram validados.
 - **30/10/2026:** capturas mostraram seleção de Ubuntu 24.04 Minimal aarch64 e VM.Standard.A1.Flex com 2 OCPUs e 12 GB no formulário. A designação de IPv4 público permaneceu bloqueada; o usuário pediu para delegar a continuação.
-- **30/10/2026:** relato da outra sessão informa VCN criada e falhas de capacidade A1 em 2 OCPUs / 12 GB e 1 OCPU / 6 GB. Não houve confirmação direta do estado ou custo da conta. Script e fluxo foram relatados, mas não disponibilizados nesta sessão para revisão.
+- **30/10/2026:** relato da outra sessão informa VCN criada e falhas de capacidade A1 em 2 OCPUs / 12 GB e 1 OCPU / 6 GB. Não houve confirmação direta do estado ou custo da conta.
+- **30/10/2026:** recebidos README, STATUS e fluxo JSON da outra sessão. A lógica do fluxo foi revisada isoladamente com dados fictícios; foram identificadas pendências de duplicação, validação, privacidade em grupos, limite de tarefas e persistência. O script cloud-init não foi recebido e ainda precisa de revisão.

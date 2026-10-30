@@ -18,14 +18,14 @@ Este documento resume o relato fornecido pelo usuário sobre a sessão de outro 
 - Fluxo n8n para cadastrar, listar e concluir tarefas pelo Telegram; o relato menciona teste local da lógica, sem teste real no Telegram.
 - Documentação de continuidade produzida na outra sessão.
 
-Os arquivos não foram encontrados nos locais pesquisados nesta sessão e ainda não foram examinados. Antes de importar, executar, provisionar com o script ou substituir documentos existentes, obter os arquivos, revisar o conteúdo e confirmar que não contêm credenciais ou dados pessoais.
+Posteriormente, o usuário forneceu README.md, STATUS.md e o fluxo JSON. O fluxo e sua lógica foram examinados com dados fictícios; há problemas pendentes descritos em REVISAO_ARTEFATOS.md. O script cloud-init não foi recebido nem examinado. Antes de importar, executar, provisionar com o script ou substituir documentos existentes, corrigir os pontos encontrados e revisar o script e eventuais dados sensíveis.
 
 ## Pontos para conferir
 
 1. Confirmar no painel a existência da VCN, gateways, sub-redes, regras e seus custos; revisar especialmente se a rede expõe SSH desnecessariamente.
 2. A declaração de que todos os gateways são gratuitos e de que não houve cobrança não foi verificada nesta sessão. Conferir recursos, uso de créditos e Análise de Custos.
 3. Revisar o script de inicialização e a proteção do primeiro acesso do n8n antes de publicar o serviço na internet; não presumir que HTTPS, autenticação e proteção de credenciais estejam configurados corretamente.
-4. Conciliar o comando `/listar`, mencionado no relato do outro assistente, com o comando `/lista` da proposta em PRIMEIRO_TESTE.md antes de implementar o fluxo.
+4. O fluxo recebido aceita tanto `/listar` quanto `/lista`; corrigir e testar os demais pontos registrados em REVISAO_ARTEFATOS.md antes de ativá-lo.
 5. Confirmar os arquivos e resultados reais dos testes; preservar os documentos existentes durante a integração dos artefatos.
 6. Quando houver disponibilidade, tentar novamente a instância A1.Flex dentro do escopo gratuito. Não fazer upgrade nem contratar serviços pagos.
 
