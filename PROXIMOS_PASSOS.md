@@ -1,14 +1,16 @@
 # Próximos passos
 
-Data de referência: 30/10/2026. Esta lista é um plano; não autoriza contratações, exposição de serviços ou alterações fora do novo repositório.
+Data de referência: 30/10/2026. Esta lista é um plano; não autoriza contratações, exposição de serviços ou alterações fora deste repositório.
 
-## 1. Verificar a opção gratuita de infraestrutura
+## 1. Definir o piloto de tarefas pelo Telegram — prioridade atual
 
-- [ ] Acessar Computação > Instâncias no painel Oracle.
-- [ ] Conferir região, capacidade disponível, elegibilidade gratuita e limites aplicáveis.
-- [ ] Registrar uma configuração candidata e os custos exibidos, sem dados de conta ou credenciais.
+- [x] Escolher o primeiro fluxo: receber e organizar tarefas pelo Telegram.
+- [x] Documentar uma proposta de cadastro, listagem e conclusão de tarefas em [Primeiro teste](PRIMEIRO_TESTE.md).
+- [x] Definir exemplos de resposta e critérios de aceite.
+- [ ] Revisar a proposta com base em eventuais ajustes do usuário.
+- [ ] Definir o armazenamento persistente e a forma de integração na preparação da infraestrutura.
 
-**Resultado esperado:** uma opção concreta e revisada para o servidor, antes de sua criação.
+**Resultado esperado:** um escopo mínimo claro. O planejamento avançou; implementação e teste real permanecem pendentes.
 
 ## 2. Recuperar e reconciliar o documento de continuidade
 
@@ -19,14 +21,15 @@ Data de referência: 30/10/2026. Esta lista é um plano; não autoriza contrata�
 
 **Resultado esperado:** continuidade validada contra a fonte original.
 
-## 3. Definir o primeiro teste
+## 3. Verificar a opção gratuita de infraestrutura — adiado
 
-- [ ] Escolher um fluxo pequeno com entrada e resultado verificáveis.
-- [ ] Definir quais tarefas cabem ao n8n, ao orquestrador e a cada agente.
-- [ ] Definir os serviços necessários e eventuais custos de API.
-- [ ] Definir critérios de aprovação humana e de conclusão do teste.
+Etapa adiada a pedido do usuário por problemas de conexão. Retomar quando a conexão estiver normalizada.
 
-**Resultado esperado:** escopo mínimo claro, com custo e comportamento esperados.
+- [ ] Acessar Computação > Instâncias no painel Oracle.
+- [ ] Conferir região, capacidade disponível, elegibilidade gratuita e limites aplicáveis.
+- [ ] Registrar uma configuração candidata e os custos exibidos, sem dados de conta ou credenciais.
+
+**Resultado esperado:** uma opção concreta e revisada para o servidor, antes de sua criação.
 
 ## 4. Preparar a implantação
 
@@ -35,16 +38,17 @@ Após validar a configuração e obter autorização para as ações de infraest
 - [ ] Criar e configurar o servidor.
 - [ ] Preparar Docker, armazenamento persistente e n8n.
 - [ ] Definir acesso administrativo, rede e proteção das credenciais.
-- [ ] Configurar o Telegram para o fluxo escolhido.
+- [ ] Configurar o Telegram para o piloto escolhido.
+- [ ] Implementar o cadastro, a listagem e a conclusão de tarefas.
 - [ ] Documentar versões e procedimentos sem incluir valores secretos.
 
-**Resultado esperado:** ambiente acessível apenas conforme as permissões definidas e pronto para um teste controlado.
+**Resultado esperado:** ambiente pronto para executar o piloto com o usuário autorizado.
 
 ## 5. Validar a operação e a continuidade
 
-- [ ] Executar o primeiro fluxo e verificar o resultado.
-- [ ] Verificar tratamento de erros e aprovações.
+- [ ] Executar os critérios de aceite de PRIMEIRO_TESTE.md.
+- [ ] Verificar tratamento de erros, duplicidade de eventos e persistência após reinício.
 - [ ] Definir backups e testar a recuperação.
 - [ ] Atualizar STATUS.md e DECISOES.md com evidências não confidenciais.
 
-**Resultado esperado:** primeira automação validada e instruções suficientes para retomá-la em outra conversa.
+**Resultado esperado:** primeiro fluxo de tarefas validado e instruções suficientes para retomá-lo em outra conversa.

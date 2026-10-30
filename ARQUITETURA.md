@@ -24,6 +24,12 @@ flowchart TD
 
 O diagrama representa o fluxo discutido, sem definir protocolos, bibliotecas ou contratos de integração.
 
+## Primeiro piloto escolhido
+
+Em 30/10/2026, o usuário escolheu receber e organizar tarefas pelo Telegram. O fluxo proposto é Telegram → validação no n8n → armazenamento persistente das tarefas → resposta no Telegram. O piloto cobre cadastro, listagem e conclusão por regras simples; a escolha do armazenamento e a implementação continuam pendentes. Ver [Primeiro teste](PRIMEIRO_TESTE.md).
+
+A verificação da Oracle foi adiada por problemas de conexão relatados pelo usuário. O diagrama geral continua representando a visão futura do projeto.
+
 ## Componentes discutidos
 
 | Componente | Papel previsto | Situação |
@@ -45,7 +51,7 @@ O diagrama representa o fluxo discutido, sem definir protocolos, bibliotecas ou 
 - Provedor de modelos, custos de uso e limites por tarefa.
 - Critérios para aprovação humana, tratamento de erros e interrupção de tarefas.
 - Acesso administrativo, HTTPS, regras de rede, armazenamento de credenciais e backups.
-- Escopo de um primeiro fluxo simples para validar o funcionamento.
+- Implementação e validação do piloto de tarefas pelo Telegram, cujo escopo está descrito em PRIMEIRO_TESTE.md.
 
 Esses itens são pendências de projeto, não configurações já adotadas. Não há arquivos de implantação ou comandos de provisionamento neste registro inicial.
 

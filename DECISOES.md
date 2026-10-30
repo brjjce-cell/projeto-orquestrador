@@ -40,6 +40,26 @@ Registro inicial: 30/10/2026.
 
 **Evidência técnica:** autenticação SSH na conta `brjjce-cell`, leitura de `main` e simulação de envio concluídas em 30/10/2026. Essa validação se refere ao GitHub; não houve teste de acesso SSH a um servidor Oracle.
 
+## D-005 — Adiar a verificação da Oracle
+
+**Data:** 30/10/2026.
+
+**Estado:** solicitado pelo usuário.
+
+**Decisão:** adiar temporariamente a verificação da infraestrutura Oracle devido aos problemas de conexão relatados e avançar no planejamento do primeiro teste. Retomar a verificação quando a conexão estiver normalizada.
+
+**Consequência:** a disponibilidade gratuita e a configuração do servidor continuam pendentes. Não houve provisionamento nesta etapa.
+
+## D-006 — Começar por tarefas no Telegram
+
+**Data:** 30/10/2026.
+
+**Estado:** escopo escolhido pelo usuário.
+
+**Decisão:** o primeiro teste será receber e organizar tarefas pelo Telegram.
+
+**Proposta de funcionamento:** cadastrar, listar pendências e marcar tarefas como concluídas, conforme PRIMEIRO_TESTE.md. Os comandos e as regras estão documentados como proposta inicial. Armazenamento, implementação e teste real permanecem pendentes.
+
 ## Direções de arquitetura registradas no histórico
 
 Estas direções orientam o planejamento, mas não representam implantação concluída ou escolha técnica final validada:
@@ -54,7 +74,7 @@ Estas direções orientam o planejamento, mas não representam implantação con
 ## Questões abertas
 
 1. Qual configuração gratuita está disponível e é suficiente para o primeiro teste?
-2. Qual será o primeiro fluxo de automação demonstrável?
+2. Qual armazenamento persistente e forma de integração serão usados no piloto de tarefas pelo Telegram?
 3. Quais modelos e serviços serão usados e qual o limite de gastos autorizado?
 4. Quais ações exigirão aprovação humana?
 5. Como serão implementados o armazenamento de credenciais, o backup e a recuperação?

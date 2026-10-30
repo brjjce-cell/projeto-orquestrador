@@ -12,12 +12,18 @@ Foram citados agentes de pesquisa, criação e análise. Também foram mencionad
 
 - O usuário informou que criou a conta Oracle Cloud.
 - O histórico registra acesso ao painel da região de São Paulo.
-- O próximo passo discutido era acessar Computação > Instâncias e avaliar uma configuração gratuita antes de criar o servidor.
+- O passo de infraestrutura discutido era acessar Computação > Instâncias e avaliar uma configuração gratuita antes de criar o servidor.
 - A instalação local do Docker não foi concluída segundo o histórico, motivando a avaliação antecipada de um servidor em nuvem.
 - O usuário autorizou criar um repositório GitHub privado chamado `projeto-orquestrador` como registro oficial.
 - O repositório privado foi criado na conta `brjjce-cell`, e o usuário publicou os sete arquivos iniciais em 30/10/2026.
 - O acesso por SSH autenticou na conta `brjjce-cell`; a leitura da branch `main` e uma simulação de envio foram concluídas com sucesso.
 - O usuário solicitou que o registro acompanhe as conversas. Durante o trabalho ativo neste contexto, as mudanças relevantes devem ser resumidas e publicadas sem um novo pedido a cada etapa.
+
+## Mudança de prioridade em 30/10/2026
+
+O usuário relatou problemas de conexão e pediu para pular temporariamente a etapa da Oracle. Em seguida, escolheu receber e organizar tarefas pelo Telegram como primeiro teste.
+
+A prioridade atual é definir esse fluxo. A proposta documentada em PRIMEIRO_TESTE.md prevê cadastrar, listar e concluir tarefas. Os comandos e as regras são uma proposta de funcionamento; não houve implementação ou teste real. A verificação da Oracle e a implantação serão retomadas quando a conexão estiver normalizada.
 
 ## Limite das fontes
 
