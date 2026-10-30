@@ -47,6 +47,12 @@ Em 30/10/2026, o usuário forneceu o relato da outra sessão: uma VCN e componen
 
 O relato intermediário mencionou 4 OCPUs / 24 GB como Always Free, mas a documentação oficial atual da Oracle informa limite total de 2 OCPUs / 12 GB para preservar instâncias A1 após a avaliação gratuita. Os detalhes, fontes e pendências constam em RELATO_CLAUDE.md.
 
+## Preservação dos arquivos da sessão delegada
+
+Em 30/10/2026, o ZIP da versão 2 foi recebido. O código, o fluxo e os testes foram preservados como rascunho em `revisoes/versao-2/`; os dois documentos que vieram no ZIP foram arquivados em `originais/` com avisos sobre informações que ainda precisam de correção. Nenhuma chave privada ou token foi incluído.
+
+Esses documentos da sessão delegada não são o documento original de continuidade citado anteriormente, que continua pendente. A configuração da instância no formulário Oracle não havia sido finalizada; o usuário informou que encerraria suas atividades e foi orientado a cancelar o formulário. A criação ou o cancelamento efetivo não foi verificado nesta sessão.
+
 ## Limite das fontes
 
 O histórico menciona um documento completo de continuidade compartilhado anteriormente, mas esse documento não estava acessível na recuperação realizada para este registro. Não houve transcrição nem validação integral desse documento.

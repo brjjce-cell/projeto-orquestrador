@@ -2,7 +2,7 @@
 
 Data: 30/10/2026.
 
-Os arquivos de código e testes recebidos foram preservados em `revisoes/versao-2/` como rascunho. Não são uma versão aprovada para implantação. As documentações externas com informações conflitantes não substituíram os documentos oficiais deste repositório.
+Os arquivos de código e testes recebidos foram preservados em `revisoes/versao-2/` como rascunho. Não são uma versão aprovada para implantação. Os dois documentos externos também foram preservados em `revisoes/versao-2/originais/`, com aviso sobre informações conflitantes; eles não substituem os documentos oficiais.
 
 ## O que foi verificado
 
